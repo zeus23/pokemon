@@ -92,7 +92,7 @@ const PokemonCard = ({ item, handleClick }: IPokemonCardProp) => {
                         {
                             data.types.map((type: any, index: number) => {
                                 return (
-                                    <div className='border border-gray-500 border-solid mr-2 p-1 rounded-lg'>
+                                    <div className='border border-gray-500 border-solid mr-2 p-1 rounded-lg' key={index}>
                                         <p className='text-xs text-gray-500 capitalize' key={index}>{type.type.name}</p>
                                     </div>
                                 )

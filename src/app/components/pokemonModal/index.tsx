@@ -86,7 +86,7 @@ const PokemonModal = ({ isVisible, onClose, pokemonData }: any) => {
                         {
                             pokemonData.types.map((type: any, index: number) => {
                                 return (
-                                    <div className='border border-gray-800 border-solid mr-2 p-1 rounded-lg'>
+                                    <div className='border border-gray-800 border-solid mr-2 p-1 rounded-lg' key={index}>
                                         <p className='text-xs text-gray-800 capitalize' key={index}>{type.type.name}</p>
                                     </div>
                                 )
