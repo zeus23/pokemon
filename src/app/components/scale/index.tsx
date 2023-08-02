@@ -15,7 +15,6 @@ const Scale = (props: any) => {
         width: `${completed}%`,
         backgroundColor: completed > 50 ? 'green' : 'red',
         borderRadius: 'inherit',
-        textAlign: 'right'
     }
 
     return (
