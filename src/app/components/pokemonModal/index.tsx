@@ -7,7 +7,7 @@ import Moves from '../moves';
 
 import pokeBall from '../../../../assets/pokeball_new.png'
 
-export default ({ isVisible, onClose, pokemonData }: any) => {
+const PokemonModal = ({ isVisible, onClose, pokemonData }: any) => {
 
     const [tab, setTab] = useState('About');
 
@@ -146,3 +146,5 @@ export default ({ isVisible, onClose, pokemonData }: any) => {
         </div>
     )
 }
+
+export default PokemonModal;

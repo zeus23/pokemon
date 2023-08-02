@@ -1,4 +1,4 @@
-export default ({ pokemonData }: any) => {
+const About = ({ pokemonData }: any) => {
     return (
         <div className='w-full py-4'>
 
@@ -54,3 +54,5 @@ export default ({ pokemonData }: any) => {
         </div>
     )
 }
+
+export default About;

@@ -1,4 +1,4 @@
-export default () => {
+const PokemonCardLoading = () => {
     return (
         <div className="w-[200px] h-[200px] rounded-lg shadow-md cursor-pointer p-4 bg-[#F5F7FA)] flex flex-col animate-pulse mb-7">
             <div className='w-[50px] h-[20px] bg-gray-300 rounded-md'></div>
@@ -10,3 +10,5 @@ export default () => {
         </div>
     )
 }
+
+export default PokemonCardLoading;

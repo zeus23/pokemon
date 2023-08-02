@@ -17,7 +17,7 @@ const defaultOptions = {
     easing: "cubic-bezier(.03,.98,.52,.99)",
 }
 
-export default ({ item, handleClick }: IPokemonCardProp) => {
+const PokemonCard = ({ item, handleClick }: IPokemonCardProp) => {
     const { data, error, isFetching } = useGetPokemonByNameQuery(item.name);
 
     let cardStyle;
@@ -104,3 +104,5 @@ export default ({ item, handleClick }: IPokemonCardProp) => {
         </Tilt>
     )
 }
+
+export default PokemonCard;

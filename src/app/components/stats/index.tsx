@@ -1,6 +1,6 @@
 import Scale from "../scale"
 
-export default ({ pokemonData }: any) => {
+const Stats = ({ pokemonData }: any) => {
     return (
         <div className='w-full py-4'>
             {
@@ -23,3 +23,5 @@ export default ({ pokemonData }: any) => {
         </div>
     )
 }
+
+export default Stats;

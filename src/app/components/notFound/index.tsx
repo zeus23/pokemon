@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import notFound from '../../../../assets/avatar.png'
 
-export default () => {
+const NotFound = () => {
     return (
         <div className='w-full h-[500px] flex items-center justify-center flex-col'>
             <Image
@@ -14,3 +14,5 @@ export default () => {
         </div>
     )
 }
+
+export default NotFound;

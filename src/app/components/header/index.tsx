@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 import PokemonLogo from '../../../../assets/pokemonLogo.png';
 
-export default ({ searchQuery, handleChangeText }: any) => {
+const Header = ({ searchQuery, handleChangeText }: any) => {
     return (
         <div className="w-full flex flex-col items-center justify-center p-[1rem] relative bg-red-500 shadow-xl">
             <Image
@@ -28,3 +28,5 @@ export default ({ searchQuery, handleChangeText }: any) => {
         </div>
     )
 }
+
+export default Header;

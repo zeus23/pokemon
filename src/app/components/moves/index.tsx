@@ -1,4 +1,4 @@
-export default ({ pokemonData }: any) => {
+const Moves = ({ pokemonData }: any) => {
     return (
         <div className='w-full py-4 flex flex-wrap max-h-[250px] overflow-auto'>
             {
@@ -22,3 +22,5 @@ export default ({ pokemonData }: any) => {
         </div>
     )
 }
+
+export default Moves;

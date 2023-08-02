@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import PokemonLogo from '../../../../assets/pokemonLogo.png';
-export default () => {
+const FullLoader = () => {
     return (
         <div className="w-full h-screen bg-red-500 flex flex-col items-center justify-center">
             <Image
@@ -11,3 +11,5 @@ export default () => {
         </div>
     )
 }
+
+export default FullLoader;

@@ -8,7 +8,6 @@ import Footer from './components/footer';
 import { IPokemon } from './types';
 import PokemonCard from './components/pokemonCard';
 import FullLoader from './components/fullLoader';
-import Image from 'next/image';
 import PokemonModal from './components/pokemonModal';
 import NotFound from './components/notFound';
 

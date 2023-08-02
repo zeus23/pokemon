@@ -1,4 +1,4 @@
-export default ({ pokemonData, clickNext, clickPrevious }: any) => {
+const Footer = ({ pokemonData, clickNext, clickPrevious }: any) => {
     const activeBtn = "bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-gray-700 hover:border-gray-500 rounded";
     const disabledBtn = "bg-gray-500 text-white font-bold py-2 px-4 border-b-4 border-gray-700 rounded opacity-50 cursor-not-allowed"
     return (
@@ -26,3 +26,5 @@ export default ({ pokemonData, clickNext, clickPrevious }: any) => {
         </div>
     )
 }
+
+export default Footer;
